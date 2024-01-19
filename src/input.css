@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gilroy-black';
+    src: url("/dist/assets/fonts/Gilroy-Light.ttf");
+}
+@font-face {
+    font-family: 'Konexy-font';
+    src: url("/dist/assets/fonts/KonexyPersonalUse.ttf");
+}
+.menuicon.active .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+.menuicon.active .bar:nth-child(2) {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+.menuicon.active .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+.menulist.active {
+    right: 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;   
+}
