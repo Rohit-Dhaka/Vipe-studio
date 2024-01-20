@@ -806,10 +806,6 @@ video {
   margin-top: 38px;
 }
 
-.mt-\[71px\]{
-  margin-top: 71px;
-}
-
 .mt-\[40px\]{
   margin-top: 40px;
 }
@@ -2385,14 +2381,9 @@ video {
   padding-bottom: 12px;
 }
 
-.py-\[27px\]{
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-
-.py-\[33px\]{
-  padding-top: 33px;
-  padding-bottom: 33px;
+.py-\[40px\]{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .py-\[6px\]{
@@ -2403,11 +2394,6 @@ video {
 .py-\[8px\]{
   padding-top: 8px;
   padding-bottom: 8px;
-}
-
-.py-\[40px\]{
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .pb-3{
@@ -2438,28 +2424,12 @@ video {
   padding-bottom: 38px;
 }
 
+.pb-\[40px\]{
+  padding-bottom: 40px;
+}
+
 .pb-\[45px\]{
   padding-bottom: 45px;
-}
-
-.pb-\[60px\]{
-  padding-bottom: 60px;
-}
-
-.pb-\[65px\]{
-  padding-bottom: 65px;
-}
-
-.pb-\[70px\]{
-  padding-bottom: 70px;
-}
-
-.pb-\[80px\]{
-  padding-bottom: 80px;
-}
-
-.pb-\[81px\]{
-  padding-bottom: 81px;
 }
 
 .pl-\[10px\]{
@@ -2484,10 +2454,6 @@ video {
 
 .pt-2{
   padding-top: 0.5rem;
-}
-
-.pt-\[100px\]{
-  padding-top: 100px;
 }
 
 .pt-\[12px\]{
@@ -2526,6 +2492,10 @@ video {
   padding-top: 23px;
 }
 
+.pt-\[24px\]{
+  padding-top: 24px;
+}
+
 .pt-\[25px\]{
   padding-top: 25px;
 }
@@ -2554,10 +2524,6 @@ video {
   padding-top: 45px;
 }
 
-.pt-\[47px\]{
-  padding-top: 47px;
-}
-
 .pt-\[50px\]{
   padding-top: 50px;
 }
@@ -2568,30 +2534,6 @@ video {
 
 .pt-\[70px\]{
   padding-top: 70px;
-}
-
-.pt-\[81px\]{
-  padding-top: 81px;
-}
-
-.pb-\[40px\]{
-  padding-bottom: 40px;
-}
-
-.pb-\[\]{
-  padding-bottom: ;
-}
-
-.pt-\[24px\]{
-  padding-top: 24px;
-}
-
-.pt-\[0px\]{
-  padding-top: 0px;
-}
-
-.pb-\[4opx\]{
-  padding-bottom: 4opx;
 }
 
 .text-left{
@@ -2692,14 +2634,6 @@ video {
 
 .text-\[28px\]{
   font-size: 28px;
-}
-
-.text-\[35px\]{
-  font-size: 35px;
-}
-
-.text-\[38px\]{
-  font-size: 38px;
 }
 
 .text-\[72px\]{
@@ -2842,10 +2776,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
 }
 
 .underline{
@@ -3401,6 +3331,16 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:backdrop-blur-none:hover{
+  --tw-backdrop-blur: blur(0);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.hover\:duration-300:hover{
+  transition-duration: 300ms;
+}
+
 .before\:hover\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
@@ -3488,8 +3428,8 @@ video {
     width: 100%;
   }
 
-  .max-lg\:pb-\[20px\]{
-    padding-bottom: 20px;
+  .max-lg\:pb-\[40px\]{
+    padding-bottom: 40px;
   }
 
   .max-lg\:pt-\[24px\]{
@@ -3498,10 +3438,6 @@ video {
 
   .max-lg\:pt-\[40px\]{
     padding-top: 40px;
-  }
-
-  .max-lg\:pb-\[40px\]{
-    padding-bottom: 40px;
   }
 }
 
@@ -3522,10 +3458,6 @@ video {
 
   .max-sm\:pt-\[24px\]{
     padding-top: 24px;
-  }
-
-  .max-sm\:pt-\[40px\]{
-    padding-top: 40px;
   }
 
   .max-sm\:text-\[42px\]{
@@ -3565,12 +3497,16 @@ video {
     padding-bottom: 27px;
   }
 
-  .sm\:pt-\[81px\]{
-    padding-top: 81px;
+  .sm\:pb-\[60px\]{
+    padding-bottom: 60px;
   }
 
   .sm\:pb-\[65px\]{
     padding-bottom: 65px;
+  }
+
+  .sm\:pb-\[70px\]{
+    padding-bottom: 70px;
   }
 
   .sm\:pb-\[80px\]{
@@ -3581,20 +3517,12 @@ video {
     padding-bottom: 81px;
   }
 
-  .sm\:pb-\[60px\]{
-    padding-bottom: 60px;
-  }
-
   .sm\:pt-\[100px\]{
     padding-top: 100px;
   }
 
   .sm\:pt-\[47px\]{
     padding-top: 47px;
-  }
-
-  .sm\:pb-\[70px\]{
-    padding-bottom: 70px;
   }
 
   .sm\:pt-\[50px\]{
@@ -3605,6 +3533,10 @@ video {
     padding-top: 60px;
   }
 
+  .sm\:pt-\[81px\]{
+    padding-top: 81px;
+  }
+
   .sm\:text-\[16px\]{
     font-size: 16px;
   }
@@ -3613,12 +3545,12 @@ video {
     font-size: 24px;
   }
 
-  .sm\:text-\[38px\]{
-    font-size: 38px;
-  }
-
   .sm\:text-\[35px\]{
     font-size: 35px;
+  }
+
+  .sm\:text-\[38px\]{
+    font-size: 38px;
   }
 
   .sm\:underline{
