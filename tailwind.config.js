@@ -13,6 +13,9 @@ module.exports = {
         'gradient-shadow' : '0px 20px 50px 0px rgba(39, 0, 124, 0.50)' ,
         'card-shadow' : ' 0px 20px 60.571px 0px #E5E9F6',
         'min-card': '12.114px 48.457px 60.571px 0px rgba(229, 233, 246, 0.40)'
+      },
+      animation:{
+        'spin-slow':'spin 1s linear infinite',
       }
     },
   },
