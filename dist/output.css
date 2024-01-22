@@ -1641,10 +1641,6 @@ video {
   gap: 48px;
 }
 
-.gap-\[58px\]{
-  gap: 58px;
-}
-
 .gap-\[7px\]{
   gap: 7px;
 }
@@ -2354,6 +2350,11 @@ video {
 .px-\[24px\]{
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.px-\[28px\]{
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .px-\[38px\]{
@@ -3397,18 +3398,6 @@ video {
 
   .max-xl\:justify-center{
     justify-content: center;
-  }
-
-  .max-xl\:gap-\[70px\]{
-    gap: 70px;
-  }
-
-  .max-xl\:gap-\[0px\]{
-    gap: 0px;
-  }
-
-  .max-xl\:gap-\[40px\]{
-    gap: 40px;
   }
 
   .max-xl\:gap-\[30px\]{
