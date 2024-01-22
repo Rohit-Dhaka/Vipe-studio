@@ -3331,16 +3331,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:backdrop-blur-none:hover{
-  --tw-backdrop-blur: blur(0);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.hover\:duration-300:hover{
-  transition-duration: 300ms;
-}
-
 .before\:hover\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
@@ -3385,6 +3375,10 @@ video {
     display: flex;
   }
 
+  .max-xl\:hidden{
+    display: none;
+  }
+
   .max-xl\:h-screen{
     height: 100vh;
   }
@@ -3407,6 +3401,18 @@ video {
 
   .max-xl\:gap-\[70px\]{
     gap: 70px;
+  }
+
+  .max-xl\:gap-\[0px\]{
+    gap: 0px;
+  }
+
+  .max-xl\:gap-\[40px\]{
+    gap: 40px;
+  }
+
+  .max-xl\:gap-\[30px\]{
+    gap: 30px;
   }
 
   .max-xl\:bg-black{
@@ -3740,6 +3746,10 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:flex{
+    display: flex;
+  }
+
   .xl\:justify-between{
     justify-content: space-between;
   }
